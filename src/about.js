@@ -1,5 +1,5 @@
-console.log('关于')
-import React, { Component } from 'react'
+console.log("关于")
+import React, { Component } from "react"
 
 export default class about extends Component {
     render() {
