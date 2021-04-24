@@ -1,7 +1,7 @@
-console.log('main')
+console.log("main")
 
 class Main {
-    constructor(params){
-        console.log(params)
-    }
+  constructor(params) {
+    console.log(params, "123")
+  }
 }
