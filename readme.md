@@ -17,9 +17,9 @@
 >> - 将不想跟踪的文件(文件夹)，添加到根目录下`.gitignore`中让`git`不跟踪文件
 
 - 将本地修改的文件保存到本地仓库
-       `git stash/sit stash pop?`
+       `git stash / git stash pop`
 - 将本地仓库推送到远程仓库, 常规推送、强制推送
-       `git push/git push -f origin master?`
+       `git push/git push --force`
 - 从远程仓库拉取代码
        `git pull/git pull --rebase`
 - 创建新分支
@@ -27,14 +27,33 @@
 - 切换分支
        `git checkout master`
 - 合并分支
-       `git merge develop ??`
+       将develop合并到当前分支：`git merge develop` 将master合并到当前分支：`git merge master`
 - 关于标签的操作
 
-```关于标签的操作
-      - git tag name
+``` javascript
+      - git tag NAME
       - git log --pretty=oneline --abbrev-commit
       - git tag v0.5.0 666a1a9
       - git show v0.5.0
+```
+
+``` javascript
+const name = ''
+const fun = ()=> {
+
+}
+```
+
+``` java
+String name = ''
+Inter age = 1
+```
+
+``` less
+$w = 10
+.block{
+   width: $w;    
+}
 ```
 
 ## 学习markdown语法
@@ -54,5 +73,17 @@
 - 代码块
 - **引用**
 - ...
+
+## 无序列表
+
+- aaaa
+- bbb
+- ccc
+
+## 有序列表
+
+1. dsdfsdf
+2. sdfsdsf
+3. zdfsdfsdf
 
 ## [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)
